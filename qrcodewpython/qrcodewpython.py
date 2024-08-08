@@ -10,10 +10,10 @@ qr kod oluşturma:
 
 import qrcode
 import image
-qr=qrcode.QRCode(version=15,
-                 box_size=10,
+qr=qrcode.QRCode(version=7,
+                 box_size=12,
                  border=5)
-data="selinisme"
+data="https://www.youtube.com/watch?v=j56ujw-PLYQ"
 
 qr.add_data(data)
 
